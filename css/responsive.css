@@ -3,592 +3,298 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .header-search {
-        padding: 15px 0px;
+@media (min-width: 1200px) and (max-width: 1342px) {
+    #myCarousel a.carousel-control-next {
+        right: -3%;
     }
-}
-
-
-/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
-
-@media only screen and (min-width: 599px) and (max-width: 767px) {
-    .logo {
-        text-align: center;
+    #myCarousel a.carousel-control-prev {
+        right: -3%;
     }
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
-    .mg {
-        margin: 0px 0px;
-    }
-    .menu-area-main {
-        height: 256px;
-        overflow-y: auto;
-    }
-    .megamenu>.row [class*="col-"] {
-        padding: 0px;
-    }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
-    }
-    .mean-container .mean-nav ul li a.mean-expand {
-        height: 19px;
-    }
-    .category-box.women-box {
-        display: none;
-    }
-    .cart-box {
-        display: inline-block;
-        margin: 0px 30px;
-    }
-    .wish-box {
-        float: none;
-        margin: 0px 30px;
-        display: inline-block;
-    }
-    .menu-add {
-        display: none;
-    }
-    .category-box {
-        display: none;
-    }
-    .mean-container .mean-nav ul li ol {
-        padding: 0px;
-    }
-    .mean-container .mean-nav ul li a {
-        padding: 10px 20px;
-        width: 94.8%;
-    }
-    .mean-container .mean-nav ul li li a {
-        width: 92%;
-        padding: 1em 4%;
-    }
-    .mean-container .mean-nav ul li li li a {
-        width: 100%;
-    }
-    .header-search {
-        padding: 15px 0px;
-    }
-    #collapseFilter.d-md-block {
-        padding: 30px 0px;
-    }
-}
-
-
-/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
-
-@media only screen and (min-width: 280px) and (max-width: 599px) {
-    .cart-content-right {
-        padding-bottom: 5px;
-    }
-    .megamenu>.row [class*="col-"] {
-        padding: 0px;
-    }
-    .menu-area-main .megamenu .men-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .women-cat {
-        padding: 0px 15px;
-    }
-    .menu-area-main .megamenu .el-cat {
-        padding: 0px 15px;
-    }
-    .mean-container .mean-nav ul li a {
-        padding: 1em 4%;
-        width: 92%;
-    }
-    .mean-container .mean-nav ul li li a {
-        width: 90%;
-        padding: 1em 5%;
-    }
-    .mean-container .sub-full.megamenu-categories ol li a {
-        padding: 5px 0px;
-        text-transform: capitalize;
-        width: 100%;
-    }
-    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
-        width: auto;
-        border: none;
-        float: none;
-    }
-    .menu-area-main {
-        height: 45px;
-        overflow-y: auto;
-    }
-    .mean-container .mean-nav ul li a.mean-expand {
-        top: 0;
+    .map {
+        margin-right: 0px;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    .navbar {
-        padding: .5rem 30px;
+    .banner_slide {
+        padding: 0 80px 0 0px;
     }
-    .header_section {
-        background-size: cover;
-    }
-    .banner_taital {
-        padding-top: 60px;
-    }
-    .image_main::after {
-        height: 390px;
-    }
-    .knowledge_section {
-        padding-top: 100px;
-        padding-bottom: 175px;
-    }
-    .Useful_text {
-        width: 65%;
-    }
-    .paddlin_left_0 {
-        padding-left: 10px;
-    }
-    .map_icon {
+    .transfot span {
         font-size: 15px;
     }
-    #my_slider a.carousel-control-next {
-        left: 335px;
-        top: 72%;
+    .transfot h3 {
+        font-size: 16px;
     }
-    #my_slider a.carousel-control-prev {
-        left: 335px;
-        top: 84%;
+    .banner_main {
+        background-size: auto 64%;
+        padding: 220px 0px 0px 0px;
     }
-    .client_right {
-        padding-top: 10px;
+    .text-bg h1 {
+        font-size: 43px;
+        line-height: 52px;
     }
-    .contact_section {
-        background-size: cover;
+    .about {
+        margin-top: -340px;
     }
-    .daily_text_1 {
-        width: 70%;
+    .yelldark_colo {
+        margin: 0 30px;
     }
-    .daily_text {
-        width: 40%;
+    .titlepage h2 {
+        font-size: 48px;
     }
-    .logo {
-    width: 24%;
-    float: left;
-}
+    #myCarousel a.carousel-control-next {
+        right: -3%;
+    }
+    #myCarousel a.carousel-control-prev {
+        right: -3%;
+    }
+    #veh a.carousel-control-next {
+        right: 43%;
+    }
+    .map {
+        margin-right: 0px;
+    }
+    .bottom_form .enter {
+        width: 63%;
+    }
+    ul.location_icon li {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .header_section {
-        background-size: cover;
+    .text-bg h1 {
+        font-size: 43px;
+        padding-bottom: 20px;
+        line-height: 44px;
     }
-    .logo {
-        width: 50%;
+    .banner_main {
+        padding: 152px 0px 0px 0px;
+        background-color: #cacaca !important;
+        background: inherit;
+        min-height: 919px;
     }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        display: block;
-        color: #272a2a;
-        text-align: center;
+    .about {
+        margin-top: 90px;
     }
-    .navbar-light .navbar-nav .nav-link:focus,
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: #15e4d0;
+    .transfot h3 {
+        font-size: 19px;
     }
-    .nav-link {
-        display: none;
+    #banner1 a.carousel-control-prev {
+        top: 41%;
     }
-    .navbar {
-        padding: .5rem 15px;
+    .titlepage h2 {
+        font-size: 37px;
     }
-    .banner_taital {
-        font-size: 50px;
-        padding-top: 50px;
+    .service_box {
+        width: 13.3%;
     }
-    .contact_bt {
-        width: 135px;
+    .service_box i {
+        width: 120px;
+        height: 120px;
     }
-    .more_bt {
-        width: 135px;
+    .service_box h4 {
+        font-size: 12px;
     }
-    .more_bt a {
-        padding: 7px 0px;
+    #veh a.carousel-control-prev {
+        left: 43%;
     }
-    .contact_bt a {
-        padding: 7px 0px;
+    #veh a.carousel-control-next {
+        right: 43%;
     }
-    .image_1 {
-        padding-top: 30px;
-    }
-    .health_taital {
-        font-size: 34px;
-    }
-    .health_text {
-        font-size: 14px;
-    }
-    .text {
-        padding: 12px 12px;
-    }
-    .image_main::after {
-        display: none;
-    }
-    .main {
-        margin: 40px 0px 0px 5px;
-    }
-    .middle {
-        left: 50%;
-    }
-    .getquote_bt_1 {
-        margin-top: 30px;
-    }
-    .knowledge_section {
-        background-size: cover;
-        padding: 100px 0px;
-    }
-    .left_main {
-        width: 100%;
-    }
-    .knowledge_taital {
-        font-size: 36px;
-    }
-    .play_icon {
-        display: none;
-    }
-    .box_main {
-        margin-bottom: 30px;
-    }
-    .getquote_bt a {
-        margin-top: 0px;
-    }
-    .contact_section {
-        background-size: cover;
-        padding-bottom: 90px;
-    }
-    .contact_taital {
-        font-size: 40px;
-    }
-    .diabetes_text {
-        width: 100%;
+    .choose_box h3 {
         font-size: 20px;
     }
-    .icon_7 {
-        width: 30%;
+    ul.location_icon li {
+        font-size: 12px;
+        line-height: 20px;
     }
-    .book_text {
-        font-size: 24px;
+    .map {
+        margin-right: 0px;
     }
-    .contact_box {
-        margin-top: 30px;
-    }
-    .client_taital {
-        font-size: 30px;
-    }
-    .client_left {
+    .bottom_form .enter {
         width: 100%;
+        margin-bottom: 20px;
     }
-    .client_right {
-        width: 100%;
-    }
-    .distracted_text {
-        font-size: 36px;
-    }
-    #my_slider a.carousel-control-next {
-        display: none;
-    }
-    #my_slider a.carousel-control-prev {
-        display: none;
-    }
-    .Useful_text {
-        width: 60%;
-    }
-    .daily_text_1 {
-        width: 50%;
-    }
-    .daily_text {
-        width: 40%;
+    .banner_slide {
+        padding: 0 80px 0 0px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    #main_slider a.carousel-control-prev {
-        position: absolute;
-        left: 175px;
-        top: 90%;
-        display: none;
+    .banner_main {
+        padding: 152px 0px 90px 0px;
+        background-color: #cacaca !important;
+        background: inherit;
     }
-    #main_slider a.carousel-control-next {
-        position: absolute;
-        left: 236px;
-        top: 90%;
-        display: none;
+    .banner_slide {
+        padding: 0 80px 0 0px;
     }
-    .header_section {
-        background-size: cover;
+    .text-bg {
+        max-width: inherit;
     }
-    .logo {
-        width: 50%;
-    }
-    .costum_menu {
-        display: none;
-    }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        display: block;
-        color: #272a2a;
-        text-align: center;
-    }
-    .navbar-light .navbar-nav .nav-link:focus,
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: #15e4d0;
-    }
-    .nav-link {
-        display: none;
-    }
-    .navbar {
-        padding: .5rem 15px;
-    }
-    .banner_taital {
-        font-size: 50px;
-        padding-top: 50px;
-    }
-    .contact_bt {
-        width: 135px;
-    }
-    .more_bt {
-        width: 135px;
-    }
-    .more_bt a {
-        padding: 7px 0px;
-    }
-    .contact_bt a {
-        padding: 7px 0px;
-    }
-    .image_1 {
+    .transfot {
         padding-top: 30px;
     }
-    .health_taital {
-        font-size: 34px;
+    .about {
+        margin-top: 90px;
     }
-    .health_text {
-        font-size: 14px;
+    #myCarousel a.carousel-control-prev {
+        top: 34%;
     }
-    .text {
-        padding: 12px 12px;
+    .text-bg h1 {
+        font-size: 48px;
+        line-height: 51px;
     }
-    .image_main::after {
-        display: none;
+    #banner1 a.carousel-control-prev {
+        top: 44%;
     }
-    .main {
-        margin: 40px 0px 0px 5px;
+    #banner1 a.carousel-control-next {
+        top: 50%;
     }
-    .middle {
-        left: 50%;
+    .service_box {
+        width: 25.0%;
     }
-    .getquote_bt_1 {
-        margin-top: 30px;
+    .service_box i {
+        width: 156px;
+        height: 156px;
     }
-    .knowledge_section {
-        background-size: cover;
-        padding: 90px 0px;
-    }
-    .left_main {
-        width: 100%;
-    }
-    .knowledge_taital {
-        font-size: 36px;
-    }
-    .play_icon {
-        display: none;
-    }
-    .box_main {
+    .vehicles_truck {
         margin-bottom: 30px;
     }
-    .getquote_bt a {
+    .blac_co {
         margin-top: 0px;
+        margin-bottom: 30px;
     }
-    .contact_section {
-        background-size: cover;
-        padding-bottom: 90px;
+    #veh .carousel-control-prev,
+    #veh .carousel-control-next {
+        top: 105%;
     }
-    .contact_taital {
-        font-size: 40px;
+    #veh a.carousel-control-prev {
+        left: 40%;
     }
-    .diabetes_text {
-        width: 100%;
-        font-size: 20px;
+    #veh .carousel-control-next {
+        right: 40%;
     }
-    .icon_7 {
-        width: 30%;
+    .main_form {
+        max-width: inherit;
     }
-    .book_text {
-        font-size: 24px;
-    }
-    .contact_box {
+    .co_tru {
+        padding-right: 0px;
         margin-top: 30px;
     }
-    .client_taital {
-        font-size: 30px;
+    .map {
+        margin-right: 0px;
+        margin-top: 30px;
     }
-    .client_left {
-        width: 100%;
+    .choose_box {
+        margin-bottom: 30px;
     }
-    .client_right {
-        width: 100%;
-    }
-    .distracted_text {
-        font-size: 36px;
-    }
-    #my_slider a.carousel-control-next {
-        display: none;
-    }
-    #my_slider a.carousel-control-prev {
-        display: none;
-    }
-    .Useful_text {
-        width: 60%;
-    }
-    .daily_text_1 {
-        width: 100%;
-    }
-    .daily_text {
-        width: 70%;
+    .titlepage h2 {
+        font-size: 31px;
     }
 }
 
 @media (max-width: 575px) {
-    #main_slider a.carousel-control-prev {
-        position: absolute;
-        left: 175px;
-        top: 90%;
-        display: none;
-    }
-    #main_slider a.carousel-control-next {
-        position: absolute;
-        left: 236px;
-        top: 90%;
-        display: none;
-    }
-    .header_section {
-        background-size: cover;
+    .header {
+        padding: 30px 0px 15px 0px;
     }
     .logo {
-        width: 50%;
+        border: inherit;
+        float: left;
+        margin-top: 0px !important;
     }
-    .costum_menu {
-        display: none;
+    .banner_main {
+        padding: 152px 0px 90px 0px;
+        background-color: #cacaca !important;
+        background: inherit;
     }
-    .navbar-expand-lg .navbar-nav .nav-link {
-        display: block;
-        color: #272a2a;
-        text-align: center;
+    .banner_slide {
+        padding: 0 50px 0 0px;
     }
-    .navbar-light .navbar-nav .nav-link:focus,
-    .navbar-light .navbar-nav .nav-link:hover {
-        color: #15e4d0;
-    }
-    .nav-link {
-        display: none;
-    }
-    .navbar {
-        padding: .5rem 15px;
-    }
-    .banner_taital {
-        font-size: 50px;
-        padding-top: 50px;
-    }
-    .contact_bt {
-        width: 135px;
-    }
-    .more_bt {
-        width: 135px;
-    }
-    .more_bt a {
-        padding: 7px 0px;
-    }
-    .contact_bt a {
-        padding: 7px 0px;
-    }
-    .image_1 {
-        padding-top: 30px;
-    }
-    .health_taital {
-        font-size: 19px;
-    }
-    .health_text {
-        font-size: 14px;
-    }
-    .text {
-        padding: 12px 12px;
-    }
-    .image_main::after {
-        display: none;
-    }
-    .main {
-        margin: 40px 0px 0px 5px;
-    }
-    .middle {
-        left: 50%;
-    }
-    .getquote_bt_1 {
-        margin-top: 30px;
-    }
-    .knowledge_section {
-        background-size: cover;
-        padding: 90px 0px;
-    }
-    .left_main {
-        width: 100%;
-    }
-    .knowledge_taital {
-        font-size: 27px;
-    }
-    .play_icon {
-        display: none;
-    }
-    .box_main {
-        margin-bottom: 30px;
-    }
-    .getquote_bt a {
+    .text-bg {
+        max-width: inherit;
         margin-top: 0px;
     }
-    .daily_text_1 {
-        width: 60%;
+    .transfot {
+        padding-top: 30px;
     }
-    .contact_section {
-        background-size: cover;
-        padding-bottom: 90px;
+    .about {
+        margin-top: 90px;
     }
-    .contact_taital {
-        font-size: 40px;
+    .text-bg h1 {
+        font-size: 36px;
+        line-height: 51px;
     }
-    .diabetes_text {
+    #banner1 a.carousel-control-prev {
+        top: 44%;
+    }
+    #banner1 a.carousel-control-next {
+        top: 50%;
+    }
+    .titlepage h2 {
+        font-size: 27px;
+        line-height: 30px;
+    }
+    .testimonial_box h3 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .service_box {
         width: 100%;
-        font-size: 20px;
     }
-    .icon_7 {
-        width: 30%;
+    .service_main {
+        justify-content: center;
     }
-    .book_text {
-        font-size: 24px;
+    .service_box i {
+        margin: 0 auto;
     }
-    .contact_box {
+    .vehicles_truck {
+        margin-bottom: 30px;
+    }
+    .blac_co {
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+    #veh .carousel-control-prev,
+    #veh .carousel-control-next {
+        top: 105%;
+    }
+    #veh a.carousel-control-prev {
+        left: 40%;
+    }
+    #veh .carousel-control-next {
+        right: 40%;
+    }
+    .choose_box h3 {
+        font-size: 16px;
+    }
+    .main_form {
+        max-width: inherit;
+    }
+    .co_tru {
+        padding-right: 0px;
         margin-top: 30px;
     }
-    .client_taital {
-        font-size: 30px;
+    .map {
+        margin-right: 0px;
+        margin-top: 30px;
     }
-    .client_left {
+    .choose_box {
+        margin-bottom: 30px;
+    }
+    .right_bottun {
+        margin-top: -40px;
+    }
+    ul.location_icon li {
+        font-size: 18px;
+    }
+    .bottom_form .enter {
         width: 100%;
+        margin-bottom: 20px;
     }
-    .client_right {
-        width: 100%;
-    }
-    .distracted_text {
-        font-size: 36px;
-    }
-    #my_slider a.carousel-control-next {
-        display: none;
-    }
-    #my_slider a.carousel-control-prev {
+    .d_none {
         display: none;
     }
 }
+
