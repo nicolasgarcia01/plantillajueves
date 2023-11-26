@@ -1,609 +1,646 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Compraventa</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>CompraVentaMedellin</title>
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div>
+   <!-- end loader -->
+
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="header">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-4 col-sm-4">
+                  <div class="logo">
+                     <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                  </div>
+               </div>
+               <div class="col-md-8 col-sm-8">
+                  <div class="right_bottun">
+                     <ul class="conat_info d_none ">
+                        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                     </ul>
+                     <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#" /> </button>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-      <!-- end loader -->
-      <div id="mySidepanel" class="sidepanel">
-         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-         <a href="index.html">Inicio</a>
-         <a href="#about">Acerca de nosotros</a>
-         <a href="#service">Servicios</a>
-         <a href="#vehicles">Otros vehiculos</a>
-         <a href="#testimonial">Testimonios</a>
-         <a href="#contact">Contactanos</a>
-      </div>
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-md-4 col-sm-4">
-                     <div class="logo">
-                        <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+   </header>
+   <!-- end header inner -->
+   <!-- end header -->
+   <!-- banner -->
+   <section class="banner_main">
+      <div id="banner1" class="carousel slide banner_slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#banner1" data-slide-to="0" class="active"></li>
+            <li data-target="#banner1" data-slide-to="1"></li>
+            <li data-target="#banner1" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container-fluid">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-7 col-lg-5">
+                           <div class="text-bg">
+                              <h1>CompraVenta Medellin</h1>
+                              <span>Vendemos y compramos motos. recibimos tu moto en forma de pago</span>
+
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-lg-7">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="ban_track">
+                                    <figure><img src="images/track.png" alt="#" /></figure>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <form class="transfot">
+                                    <div class="col-md-12">
+                                       <span></span>
+                                       <h3></h3>
+                                    </div>
+
+                                    <div class="col-md-12">
+
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
-                  <div class="col-md-8 col-sm-8">
-                     <div class="right_bottun">
-                        <ul class="conat_info d_none ">
-                           <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                        </ul>
-                        <button class="openbtn" onclick="openNav()"><img src="images/menu_icon.png" alt="#"/> </button> 
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container-fluid">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-7 col-lg-5">
+                           <div class="text-bg">
+                              <h1>CompraVenta Medellin</h1>
+                              <span>Vendemos y compramos motos. recibimos tu moto en forma de pago</span>
+
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-lg-7">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="ban_track">
+                                    <figure><img src="images/track2.png" alt="#" /></figure>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <form class="transfot">
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container-fluid">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-7 col-lg-5">
+                           <div class="text-bg">
+                              <h1>CompraVenta Medellin</h1>
+                              <span>Vendemos y compramos motos. recibimos tu moto en forma de pago</span>
+
+                           </div>
+                        </div>
+                        <div class="col-md-12 col-lg-7">
+                           <div class="row">
+                              <div class="col-md-6">
+                                 <div class="ban_track">
+                                    <figure><img src="images/track3.png" alt="#" /></figure>
+                                 </div>
+                              </div>
+                              <div class="col-md-6">
+                                 <form class="transfot">
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                    <div class="col-md-12">
+
+                                    </div>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
-      <section class="banner_main">
-         <div id="banner1" class="carousel slide banner_slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#banner1" data-slide-to="0" class="active"></li>
-               <li data-target="#banner1" data-slide-to="1"></li>
-               <li data-target="#banner1" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container-fluid">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-md-7 col-lg-5">
-                              <div class="text-bg">
-                                 <h1>Compraventa Medellin</h1>
-                                 <span>Vendemos y compramos motos. recibimos tu moto en forma de pago</span>
-                                 
-                              </div>
-                           </div>
-                           <div class="col-md-12 col-lg-7">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="ban_track">
-                                       <figure><img src="images/track.png" alt="#"/></figure>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <form class="transfot">
-                                       <div class="col-md-12">
-                                          <span></span>
-                                          <h3></h3>
-                                       </div>
-                                       
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                    </form>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container-fluid">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-md-7 col-lg-5">
-                              <div class="text-bg">
-                                 <h1>Compraventa Medellin</h1>
-                                 <span>Vendemos y compramos motos. recibimos tu moto en forma de pago</span>
-                                
-                              </div>
-                           </div>
-                           <div class="col-md-12 col-lg-7">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="ban_track">
-                                       <figure><img src="images/track2.png" alt="#"/></figure>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <form class="transfot">
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                    </form>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container-fluid">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-md-7 col-lg-5">
-                              <div class="text-bg">
-                                 <h1>Compraventa Medellin</h1>
-                                 <span>Vendemos y compramos motos. recibimos tu moto en forma de pago</span>
-                                 
-                              </div>
-                           </div>
-                           <div class="col-md-12 col-lg-7">
-                              <div class="row">
-                                 <div class="col-md-6">
-                                    <div class="ban_track">
-                                       <figure><img src="images/track3.png" alt="#"/></figure>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-6">
-                                    <form class="transfot">
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                         
-                                       </div>
-                                       <div class="col-md-12">
-                                          
-                                       </div>
-                                       <div class="col-md-12">
-                                         
-                                       </div>
-                                       <div class="col-md-12">
-                                         
-                                       </div>
-                                    </form>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+         <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
             <i class="fa fa-angle-left" aria-hidden="true"></i>
-            </a>
-            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+         </a>
+         <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
             <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </a>
-         </div>
-      </section>
-      <!-- end banner -->
-      <!-- about section -->
-      <div id="about" class="about ">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-6">
-                  <div class="about_right">
-                     <figure><img src="images/about.png" alt="#"/></figure>
-                  </div>
+         </a>
+      </div>
+   </section>
+   <!-- end banner -->
+   <!-- about section -->
+   <div id="about" class="about ">
+      <div class="container">
+         <div class="row d_flex">
+            <div class="col-md-6">
+               <div class="about_right">
+                  <figure><img src="images/about.png" alt="#" /></figure>
                </div>
-               <div class="col-md-6">
-                  <div class="titlepage">
-                     <h2>Sobre nosotros</h2>
-                     <p> "Tu destino para la pasión sobre dos ruedas. Nuestra tienda de compraventa de motos ofrece una selección única de vehículos de alta calidad. Desde clásicas hasta las últimas novedades, brindamos a los amantes de las motocicletas un espacio donde comprar, vender y compartir su amor por la velocidad. Experimenta la emoción de la carretera con nosotros."</p>
-                     
-                  </div>
+            </div>
+            <div class="col-md-6">
+               <div class="titlepage">
+                  <h2>acerca de nosotros</h2>
+                  <p> "Tu destino para la pasión sobre dos ruedas. Nuestra tienda de compraVenta de motos ofrece una
+                     selección única de vehículos de alta calidad. Desde clásicas hasta las últimas novedades, brindamos
+                     a los amantes de las motocicletas un espacio donde comprar, vender y compartir su amor por la
+                     velocidad. Experimenta la emoción de la carretera con nosotros."</p>
+
                </div>
             </div>
          </div>
       </div>
-      <!-- about section -->
-      <!-- service section -->
-      <div id="service" class="service">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-10 offset-md-1">
-                  <div class="titlepage">
-                     <h2>Nuestros Servicios</h2>
-                     <p>En nuestro local de compraventa de motos, ofrecemos una variedad de servicios para satisfacer las necesidades de los entusiastas de las motocicletas. Algunos de nuestros servicios incluyen </p>
+   </div>
+   <!-- about section -->
+   <!-- service section -->
+   <div id="service" class="service">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-10 offset-md-1">
+               <div class="titlepage">
+                  <h2>Nuestros Servicios</h2>
+                  <p>En nuestro local de compraVenta de motos, ofrecemos una variedad de servicios para satisfacer las
+                     necesidades de los entusiastas de las motocicletas. Algunos de nuestros servicios incluyen </p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="service_main">
+                  <div class="service_box blu_colo">
+                     <i><img src="images/ser1.png" alt="#" /></i>
+                     <h4>Compra y Venta de Motos</h4>
+                  </div>
+                  <div class="service_box yelldark_colo">
+                     <i><img src="images/ser2.png" alt="#" /></i>
+                     <h4>Financiamiento</h4>
+                  </div>
+                  <div class="service_box yell_colo">
+                     <i><img src="images/ser3.png" alt="#" /></i>
+                     <h4> Asesoramiento Personalizado</h4>
+                  </div>
+                  <div class="service_box yelldark_colo">
+                     <i><img src="images/ser4.png" alt="#" /></i>
+                     <h4>Servicio Técnico y Mantenimiento</h4>
+                  </div>
+                  <div class="service_box yell_colo">
+                     <i><img src="images/ser5.png" alt="#" /></i>
+                     <h4>Accesorios y Equipamiento</h4>
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="service_main">
-                     <div class="service_box blu_colo">
-                        <i><img src="images/ser1.png" alt="#"/></i>
-                        <h4>Compra y Venta de Motos</h4>
-                     </div>
-                     <div class="service_box yelldark_colo">
-                        <i><img src="images/ser2.png" alt="#"/></i>
-                        <h4>Financiamiento</h4>
-                     </div>
-                     <div class="service_box yell_colo">
-                        <i><img src="images/ser3.png" alt="#"/></i>
-                        <h4> Asesoramiento Personalizado</h4>
-                     </div>
-                     <div class="service_box yelldark_colo">
-                        <i><img src="images/ser4.png" alt="#"/></i>
-                        <h4>Servicio Técnico y Mantenimiento</h4>
-                     </div>
-                     <div class="service_box yell_colo">
-                        <i><img src="images/ser5.png" alt="#"/></i>
-                        <h4>Accesorios y Equipamiento</h4>
+            <div class="col-md-12">
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end service section -->
+   <!-- vehicles section -->
+   <section id="vehicles" class="vehicles">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Motos en venta</h2>
+                  <p> </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="veh" class="carousel slide" data-ride="carousel">
+         <ol class="carousel-indicators">
+            <li data-target="#veh" data-slide-to="0" class="active"></li>
+            <li data-target="#veh" data-slide-to="1"></li>
+            <li data-target="#veh" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc1.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">XTZ-250</h3>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc2.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">FZ</h3>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc3.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">SZ-150</h3>
+                        </div>
                      </div>
                   </div>
                </div>
-               <div class="col-md-12">
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc4.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">DUKE-390</h3>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc5.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">BOXER</h3>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc6.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">LIBERO</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+               <div class="container">
+                  <div class="carousel-caption">
+                     <div class="row">
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc7.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">BWS</h3>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc8.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">NMAX</h3>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="vehicles_truck">
+                              <figure><img src="images/truc9.png" alt="#" /></figure>
+                           </div>
+                           <h3 class="blac_co">YCZ</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <a class="carousel-control-prev" href="#veh" role="button" data-slide="prev">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+         </a>
+         <a class="carousel-control-next" href="#veh" role="button" data-slide="next">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+         </a>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end vehicles section -->
+   <!-- testimonial section -->
+   <div id="testimonial" class="testimonial bottom_cross bottom_cross2">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>Testimonios</h2>
+                  <p></p>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+               <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
+                  <ol class="carousel-indicators">
+                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                     <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="container">
+                           <div class="carousel-caption ">
+                              <div class="row">
+                                 <div class="col-md-12">
+                                    <div class="testimonial_box">
+                                       <figure><img src="images/our.png" alt="#" /></figure>
+                                       <h3>Mariana E.<br><span class="kisu">(Cliente)</span></h3>
+                                       <p>Mi experiencia con CompraVenta Medellin ha sido excepcional. Compré una
+                                          moto usada a través de su plataforma y todo el proceso fue fácil y
+                                          transparente. La descripción del vehículo en línea coincidió perfectamente con
+                                          lo que recibí, y el equipo de atención al cliente estuvo siempre disponible
+                                          para responder mis preguntas. Definitivamente recomendaría CompraVenta
+                                          Medellin
+                                          a cualquier persona en busca de una experiencia de compra de motos
+                                          sin complicaciones</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="container">
+                           <div class="carousel-caption">
+                              <div class="row">
+                                 <div class="col-md-12">
+                                    <div class="testimonial_box">
+                                       <figure><img src="images/our2.png" alt="#" /></figure>
+                                       <h3>Javier M.<br><span class="kisu">(Cliente)</span></h3>
+                                       <p>Desde el momento en que encontré la moto que quería en el sitio web de
+                                          CompraVenta
+                                          Medellin, hasta el día en que la tuve en mis manos, todo fue
+                                          increíblemente rápido y eficiente. El proceso de compra fue sencillo, y la
+                                          entrega se realizó en el plazo prometido. Estoy muy contento con mi nueva moto
+                                          y agradezco a CompraVenta Medellin por hacer que todo sea tan fácil.</p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="container">
+                           <div class="carousel-caption">
+                              <div class="row">
+                                 <div class="col-md-12">
+                                    <div class="full cross_layout">
+                                       <div class="testimonial_box">
+                                          <figure><img src="images/our3.png" alt="#" /></figure>
+                                          <h3>Carlos R.<br><span class="kisu">(Cliente)</span></h3>
+                                          <p>Lo que realmente diferencia a CompraVenta Medellin es su servicio
+                                             postventa. Después de comprar mi moto, tuve algunas preguntas sobre el
+                                             mantenimiento y la garantía. El equipo de soporte técnico fue
+                                             increíblemente amable y me brindó toda la información que necesitaba de
+                                             manera clara y rápida. Sentí que realmente se preocupaban por mi
+                                             satisfacción a largo plazo. Definitivamente volveré a elegir CompraVenta
+                                             Medellin para futuras compras de motos</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class="fa fa-caret-left" aria-hidden="true"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class="fa fa-caret-right" aria-hidden="true"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-12">
+
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- end testimonial section -->
+   <!-- choose section -->
+   <div class="choose">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  <h2>¿Por qué elegirnos?</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-md-5">
+               <div class="choose_box">
+                  <i><img src="images/why1.png" alt="#" /></i>
+                  <h3>Nuestra Misión</h3>
+                  <p>En CompraVenta Medellin, nuestra misión es ofrecer a nuestros clientes una experiencia
+                     inigualable en la compra y venta de motos. ¿Por qué elegirnos? Porque nos comprometemos a brindar
+                     transparencia en cada paso, desde la búsqueda de la moto perfecta hasta la entrega sin
+                     complicaciones. Contamos con un equipo dedicado que prioriza tu satisfacción, y nuestra plataforma
+                     fácil de usar garantiza una experiencia de compra eficiente. Además, en CompraVenta Medellin, no
+                     solo vendemos y compramos motos, construimos relaciones duraderas. Elige la confianza, elige la
+                     calidad, elige
+                     CompraVenta Medellin para todas tus necesidades de motocicletas.</p>
+
+               </div>
+            </div>
+            <div class="col-md-5 offset-md-2">
+               <div class="choose_box">
+                  <i><img src="images/why2.png" alt="#" /></i>
+                  <h3>Atención al cliente</h3>
+                  <p>Nuestro compromiso con la excelencia se refleja en nuestro servicio de atención al cliente. En
+                     CompraVenta Medellin, estamos aquí para ti en cada paso del camino. Ya sea que tengas preguntas
+                     sobre nuestros productos, necesites asistencia con tu compra o requieras soporte postventa, nuestro
+                     equipo amable y dedicado está listo para ayudarte. Tu satisfacción es nuestra prioridad, y nos
+                     esforzamos por brindarte una experiencia sin igual. En CompraVenta Medellin, la atención al
+                     cliente no es solo un servicio, es un compromiso con tu tranquilidad y confianza.</p>
                   
                </div>
             </div>
          </div>
       </div>
-      <!-- end service section -->
-      <!-- vehicles section -->
-      <section id="vehicles" class="vehicles">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Our Vehicles</h2>
-                     <p>nternet. It uses a dictionary of over 200 Latin words, combined with .</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div id="veh" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#veh" data-slide-to="0" class="active"></li>
-               <li data-target="#veh" data-slide-to="1"></li>
-               <li data-target="#veh" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc1.png" alt="#"/></figure>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc2.png" alt="#"/></figure>
-                              </div>
-                              <h3 class="blac_co">Truck</h3>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc3.png" alt="#"/></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc1.png" alt="#"/></figure>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc2.png" alt="#"/></figure>
-                              </div>
-                              <h3 class="blac_co">Truck</h3>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc3.png" alt="#"/></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <div class="carousel-caption">
-                        <div class="row">
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc1.png" alt="#"/></figure>
-                              </div>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc2.png" alt="#"/></figure>
-                              </div>
-                              <h3 class="blac_co">Truck</h3>
-                           </div>
-                           <div class="col-md-4">
-                              <div class="vehicles_truck">
-                                 <figure><img src="images/truc3.png" alt="#"/></figure>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <a class="carousel-control-prev" href="#veh" role="button" data-slide="prev">
-            <i class="fa fa-angle-left" aria-hidden="true"></i>
-            </a>
-            <a class="carousel-control-next" href="#veh" role="button" data-slide="next">
-            <i class="fa fa-angle-right" aria-hidden="true"></i>
-            </a>
-         </div>
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <a class="read_more" href="#">Read More</a>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end vehicles section -->
-      <!-- testimonial section -->
-      <div id="testimonial" class="testimonial bottom_cross bottom_cross2">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Testimonials</h2>
-                     <p>nternet. It uses a dictionary of over 200 Latin words, combined with .</p>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <div id="myCarousel" class="carousel slide testimonial_Carousel " data-ride="carousel">
-                     <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                     </ol>
-                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                           <div class="container">
-                              <div class="carousel-caption ">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="testimonial_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Luda Johnson <br><span class="kisu">( Ceo)</span></h3>
-                                          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 year</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="testimonial_box">
-                                          <figure><img src="images/our.png" alt="#"/></figure>
-                                          <h3>Luda Johnson <br><span class="kisu">( Ceo)</span></h3>
-                                          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 year</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="carousel-item">
-                           <div class="container">
-                              <div class="carousel-caption">
-                                 <div class="row">
-                                    <div class="col-md-12">
-                                       <div class="full cross_layout">
-                                          <div class="testimonial_box">
-                                             <figure><img src="images/our.png" alt="#"/></figure>
-                                             <h3>Luda Johnson <br><span class="kisu">( Ceo)</span></h3>
-                                             <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 year</p>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                     <i class="fa fa-caret-left" aria-hidden="true"></i>
-                     </a>
-                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                     <i class="fa fa-caret-right" aria-hidden="true"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-            <div class="row">
-               <div class="col-md-12">
-                  <a class="read_more" href="#">Read More</a>
+   </div>
+   <!-- end choose section -->
+   <!-- contact section -->
+   <div id="contact" class="contact">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <div class="titlepage">
+                  
                </div>
             </div>
          </div>
       </div>
-      <!-- end testimonial section -->
-      <!-- choose section -->
-      <div class="choose">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Why Choose Us</h2>
-                  </div>
-               </div>
-            </div>
+      <div class="con_bg">
+         <div class="container-fluid">
             <div class="row">
                <div class="col-md-5">
-                  <div class="choose_box">
-                     <i><img src="images/why1.png" alt="#"/></i>
-                     <h3>Our Vission</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                     <a class="read_more" href="#">Read More</a>
-                  </div>
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                         
+                        </div>
+                        <div class="col-md-12">
+                           
+                        </div>
+                        <div class="col-md-12">
+                           
+                        </div>
+                        <div class="col-md-12">
+                          
+                        </div>
+                        <div class="col-md-12">
+                           <figure><img src="images/truc11.png" alt="#" /></figure>
+                           <figure><img src="images/truc12.png" alt="#" /></figure>
+                        </div>
+                     </div>
+                  </form>
                </div>
-               <div class="col-md-5 offset-md-2">
-                  <div class="choose_box">
-                     <i><img src="images/why2.png" alt="#"/></i>
-                     <h3>Estimate Shipping</h3>
-                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
-                     <a class="read_more" href="#">Read More</a>
+               <div class="col-md-7">
+                  <div class="co_tru">
+                     <figure><img src="images/truc10.png" alt="#" /></figure>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end choose section -->
-      <!-- contact section -->
-      <div id="contact" class="contact">
+   </div>
+   <!-- end contact section -->
+   <!--  footer -->
+   <footer>
+      <div class="footer bottom_cross1">
          <div class="container">
             <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage">
-                     <h2>Requst A call  for You</h2>
+               <div class="col-md-4">
+                  <ul class="location_icon">
+                     <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Dirección : Cr46 53-51, Medellín, Antioquia  <br>
+                     
+                     </li>
+                     <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>Celular : +(57) 320 540 3491</li>
+                     <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>Correo electronico : CompraVenta@gmail.com</li>
+                  </ul>
+                  <form class="bottom_form">
+                     <h3></h3>
+                     
+                     
+                  </form>
+               </div>
+               <div class="col-md-8">
+                  <div class="map">
+                     <figure><img src="images/map.png" alt="#" /></figure>
                   </div>
                </div>
             </div>
          </div>
-         <div class="con_bg">
-            <div class="container-fluid">
+         <div class="copyright">
+            <div class="container">
                <div class="row">
-                  <div class="col-md-5">
-                     <form id="request" class="main_form">
-                        <div class="row">
-                           <div class="col-md-12 ">
-                              <input class="contactus" placeholder="Name" type="type" name="Name"> 
-                           </div>
-                           <div class="col-md-12">
-                              <input class="contactus" placeholder="Email" type="type" name="Email"> 
-                           </div>
-                           <div class="col-md-12">
-                              <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">                          
-                           </div>
-                           <div class="col-md-12">
-                              <input class="contactusmess" placeholder="Message" type="type" Message="Name">
-                           </div>
-                           <div class="col-md-12">
-                              <button class="send_btn">Send</button>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-                  <div class="col-md-7">
-                     <div class="co_tru">
-                        <figure><img src="images/truc4.png" alt="#"/></figure>
-                     </div>
+                  <div class="col-md-12">
+                     <p>© 2015 CompraVenta Medellin<a href="https://html.design/"></a></p>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- end contact section -->
-      <!--  footer -->
-      <footer>
-         <div class="footer bottom_cross1">
-            <div class="container">
-               <div class="row">
-                  <div class="col-md-4">
-                     <ul class="location_icon">
-                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a> Address : Lorem Ipsum <br> is simply dummy 
-                        </li>
-                        <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>Phone :  +(1234) 567 890</li>
-                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>Email : demo@gmail.com</li>
-                     </ul>
-                     <form class="bottom_form">
-                        <h3>Newsletter</h3>
-                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="sub_btn">subscribe</button>
-                     </form>
-                  </div>
-                  <div class="col-md-8">
-                     <div class="map">
-                        <figure><img src="images/map.png" alt="#"/></figure>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>© 2019 All Rights Reserved. Design by<a href="https://html.design/"> Free Html Templates</a></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script>
-         function openNav() {
-           document.getElementById("mySidepanel").style.width = "250px";
-         }
-         
-         function closeNav() {
-           document.getElementById("mySidepanel").style.width = "0";
-         }
-      </script>
-   </body>
-</html>
+   </footer>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script>
+      function openNav() {
+         document.getElementById("mySidepanel").style.width = "250px";
+      }
 
+      function closeNav() {
+         document.getElementById("mySidepanel").style.width = "0";
+      }
+   </script>
+</body>
+
+</html>
