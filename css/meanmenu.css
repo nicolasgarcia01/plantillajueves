@@ -3,7 +3,7 @@
      display: none;
 }
  .mean-container .mean-bar {
-     background: #000;
+     background: #020202;
      float: left;
      min-height: 40px;
      padding: 5px 0;
@@ -13,7 +13,7 @@
      margin-top: 15px;
 }
  .mean-container a.meanmenu-reveal {
-     color: #fff;
+     color: #fffefe;
      cursor: pointer;
      display: block;
      font-family: 'Roboto', sans-serif;
